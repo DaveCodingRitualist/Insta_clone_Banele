@@ -1,0 +1,21 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bottom-nav a {
+    color: black; /* Set link color to black */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer;
+  }
+
+  .bottom-nav a:hover {
+    color: gray; /* Change color on hover */
+    cursor: pointer; /* Ensure pointer cursor on hover */
+  }

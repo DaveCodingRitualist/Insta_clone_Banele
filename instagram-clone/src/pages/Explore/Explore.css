@@ -1,0 +1,13 @@
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.explore-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

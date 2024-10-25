@@ -1,0 +1,65 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;               /* Make sure it covers the full width */
+    background-color: white;    /* Optional: set a background color */
+    top: 0;                     /* Position it at the top */
+    z-index: 1000;              /* Ensure it appears above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Add shadow to distinguish it */
+    position: sticky;           /* Sticky makes it behave like "fixed" when scrolling */
+    padding: 0px 0px 0px 0px;           /* Add some padding for inner content */
+}
+
+
+.instagram-logo {
+    height: 36px;
+    width: 36px;  /* For a square image logo */
+    padding: 8px;
+}
+
+.Direct-message-icon {
+    height: 36px;
+    width: 36px;  /* For a square image logo */
+    padding: 8px; 
+}
+
+.icon-interaction {
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .instagram-logo {
+        height: 45px;
+        width: 80px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .Direct-message-icon {
+        height: 20px;
+        width: 20px;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .icon-interaction {
+        align-items: center;
+        display: flex;
+        gap: 25px;
+    }
+
+    .search-bar {
+        width: 100px;
+        padding: 5px 10px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        background-color: #fafafa;
+        text-align: center;
+        outline: none;
+        transition: width 0.3s;
+      }
+}

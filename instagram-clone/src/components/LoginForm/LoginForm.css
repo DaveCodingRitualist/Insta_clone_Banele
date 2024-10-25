@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .instagramlogo {
+    margin: 50px 0px 0px 0px
+  }
+  
+  .login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .logo {
+    font-family: 'Billabong', cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: bold;
+  }
+  
+  .login-fb {
+    background: none;
+    border: none;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-fb i {
+    margin-right: 8px;
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #00376b;
+    text-decoration: none;
+  }
+
+  .signup-prompt {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-prompt p {
+    font-size: 14px;
+    color: #262626;
+  }
+  
+  .signup-prompt a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-prompt a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: transparent; /* Make the background transparent */
+    color: #0095f6; /* Change the text color to match Instagram's theme */
+    border: none; /* Remove any borders */
+    padding: 10px 20px; /* Add some padding for a better appearance */
+    font-size: 16px; /* Adjust font size if needed */
+    cursor: pointer; /* Change the cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: rgba(0, 149, 255, 0.1); /* Light blue background on hover */
+    color: #0077cc; /* Darker blue on hover */
+  }
+  
+  .login-fb {
+    color: #4c69ba; /* Facebook blue for the Facebook login button */
+  }
